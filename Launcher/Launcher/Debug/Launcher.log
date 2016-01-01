@@ -1,0 +1,62 @@
+﻿Build started 3/10/2012 3:00:56 PM.
+     1>Project "C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Launcher\Launcher.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\Launcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ScanDir.cpp
+         ScanDir.cpp
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\program files\microsoft visual studio 10.0\vc\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\md5.h(326): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\md5.h(326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\md5.h(351): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(64): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(72): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(72): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(74): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(74): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(75): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(75): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(77): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(77): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(80): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(80): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\string.h(110) : see declaration of 'strcat'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(85): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files\microsoft visual studio 10.0\vc\include\stdlib.h(433) : see declaration of 'getenv'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(58): warning C4101: 'length_of_arg' : unreferenced local variable
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(581): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(646): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\scandir.cpp(483): warning C4715: 'checkPE' : not all control paths return a value
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Debug\Launcher.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Launcher.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Debug\Launcher.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Debug\Launcher.lib" /MACHINE:X86 Debug\ScanDir.obj
+         Launcher.vcxproj -> C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Debug\Launcher.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Debug\Launcher.exe;#1" /manifest Debug\Launcher.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\Launcher.unsuccessfulbuild".
+         Touching "Debug\Launcher.lastbuildstate".
+     1>Done Building Project "C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Launcher\Launcher.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.12

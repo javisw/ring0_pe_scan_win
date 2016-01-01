@@ -1,0 +1,180 @@
+﻿Build started 10/12/2012 11:24:06 AM.
+     1>Project "C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Launcher\Launcher.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Launcher.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Oi /Oy- /D _MBCS /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ScanDir.cpp
+         ScanDir.cpp
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(757): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(766): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string(775): warning C4995: 'swprintf': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\md5.h(326): warning C4995: 'sprintf': name was marked as #pragma deprecated
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\md5.h(326): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\javis\documents\visual studio 2010\projects\launcher\launcher\md5.h(354): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h(1087): warning C4995: 'wcscat': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft Visual Studio 10.0\VC\include\intrin.h(1089): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(147): warning C4005: 'STATUS_WAIT_0' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1983) : see previous definition of 'STATUS_WAIT_0'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(199): warning C4005: 'STATUS_ABANDONED_WAIT_0' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1984) : see previous definition of 'STATUS_ABANDONED_WAIT_0'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(222): warning C4005: 'STATUS_USER_APC' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1985) : see previous definition of 'STATUS_USER_APC'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(249): warning C4005: 'STATUS_TIMEOUT' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1986) : see previous definition of 'STATUS_TIMEOUT'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(258): warning C4005: 'STATUS_PENDING' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1987) : see previous definition of 'STATUS_PENDING'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(651): warning C4005: 'DBG_EXCEPTION_HANDLED' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1988) : see previous definition of 'DBG_EXCEPTION_HANDLED'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(660): warning C4005: 'DBG_CONTINUE' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1989) : see previous definition of 'DBG_CONTINUE'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(746): warning C4005: 'STATUS_SEGMENT_NOTIFICATION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1990) : see previous definition of 'STATUS_SEGMENT_NOTIFICATION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1219): warning C4005: 'DBG_TERMINATE_THREAD' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1991) : see previous definition of 'DBG_TERMINATE_THREAD'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1228): warning C4005: 'DBG_TERMINATE_PROCESS' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1992) : see previous definition of 'DBG_TERMINATE_PROCESS'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1237): warning C4005: 'DBG_CONTROL_C' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1993) : see previous definition of 'DBG_CONTROL_C'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1246): warning C4005: 'DBG_PRINTEXCEPTION_C' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1994) : see previous definition of 'DBG_PRINTEXCEPTION_C'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1255): warning C4005: 'DBG_RIPEXCEPTION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1995) : see previous definition of 'DBG_RIPEXCEPTION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1264): warning C4005: 'DBG_CONTROL_BREAK' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1996) : see previous definition of 'DBG_CONTROL_BREAK'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1273): warning C4005: 'DBG_COMMAND_EXCEPTION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1997) : see previous definition of 'DBG_COMMAND_EXCEPTION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1305): warning C4005: 'STATUS_GUARD_PAGE_VIOLATION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1998) : see previous definition of 'STATUS_GUARD_PAGE_VIOLATION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1316): warning C4005: 'STATUS_DATATYPE_MISALIGNMENT' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(1999) : see previous definition of 'STATUS_DATATYPE_MISALIGNMENT'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1327): warning C4005: 'STATUS_BREAKPOINT' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2000) : see previous definition of 'STATUS_BREAKPOINT'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1338): warning C4005: 'STATUS_SINGLE_STEP' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2001) : see previous definition of 'STATUS_SINGLE_STEP'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1641): warning C4005: 'STATUS_LONGJUMP' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2002) : see previous definition of 'STATUS_LONGJUMP'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1668): warning C4005: 'STATUS_UNWIND_CONSOLIDATE' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2003) : see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1735): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2004) : see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1864): warning C4005: 'STATUS_ACCESS_VIOLATION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2005) : see previous definition of 'STATUS_ACCESS_VIOLATION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1873): warning C4005: 'STATUS_IN_PAGE_ERROR' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2006) : see previous definition of 'STATUS_IN_PAGE_ERROR'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1891): warning C4005: 'STATUS_INVALID_HANDLE' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2007) : see previous definition of 'STATUS_INVALID_HANDLE'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(1936): warning C4005: 'STATUS_INVALID_PARAMETER' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2008) : see previous definition of 'STATUS_INVALID_PARAMETER'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(2036): warning C4005: 'STATUS_NO_MEMORY' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2009) : see previous definition of 'STATUS_NO_MEMORY'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(2093): warning C4005: 'STATUS_ILLEGAL_INSTRUCTION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2010) : see previous definition of 'STATUS_ILLEGAL_INSTRUCTION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(2174): warning C4005: 'STATUS_NONCONTINUABLE_EXCEPTION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2011) : see previous definition of 'STATUS_NONCONTINUABLE_EXCEPTION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(2183): warning C4005: 'STATUS_INVALID_DISPOSITION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2012) : see previous definition of 'STATUS_INVALID_DISPOSITION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3105): warning C4005: 'STATUS_ARRAY_BOUNDS_EXCEEDED' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2013) : see previous definition of 'STATUS_ARRAY_BOUNDS_EXCEEDED'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3115): warning C4005: 'STATUS_FLOAT_DENORMAL_OPERAND' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2014) : see previous definition of 'STATUS_FLOAT_DENORMAL_OPERAND'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3125): warning C4005: 'STATUS_FLOAT_DIVIDE_BY_ZERO' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2015) : see previous definition of 'STATUS_FLOAT_DIVIDE_BY_ZERO'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3135): warning C4005: 'STATUS_FLOAT_INEXACT_RESULT' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2016) : see previous definition of 'STATUS_FLOAT_INEXACT_RESULT'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3145): warning C4005: 'STATUS_FLOAT_INVALID_OPERATION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2017) : see previous definition of 'STATUS_FLOAT_INVALID_OPERATION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3155): warning C4005: 'STATUS_FLOAT_OVERFLOW' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2018) : see previous definition of 'STATUS_FLOAT_OVERFLOW'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3165): warning C4005: 'STATUS_FLOAT_STACK_CHECK' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2019) : see previous definition of 'STATUS_FLOAT_STACK_CHECK'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3175): warning C4005: 'STATUS_FLOAT_UNDERFLOW' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2020) : see previous definition of 'STATUS_FLOAT_UNDERFLOW'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3185): warning C4005: 'STATUS_INTEGER_DIVIDE_BY_ZERO' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2021) : see previous definition of 'STATUS_INTEGER_DIVIDE_BY_ZERO'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3195): warning C4005: 'STATUS_INTEGER_OVERFLOW' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2022) : see previous definition of 'STATUS_INTEGER_OVERFLOW'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(3205): warning C4005: 'STATUS_PRIVILEGED_INSTRUCTION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2023) : see previous definition of 'STATUS_PRIVILEGED_INSTRUCTION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(4151): warning C4005: 'STATUS_STACK_OVERFLOW' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2024) : see previous definition of 'STATUS_STACK_OVERFLOW'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(4668): warning C4005: 'STATUS_DLL_NOT_FOUND' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2025) : see previous definition of 'STATUS_DLL_NOT_FOUND'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(4697): warning C4005: 'STATUS_ORDINAL_NOT_FOUND' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2026) : see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(4707): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2027) : see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(4717): warning C4005: 'STATUS_CONTROL_C_EXIT' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2028) : see previous definition of 'STATUS_CONTROL_C_EXIT'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(4795): warning C4005: 'STATUS_DLL_INIT_FAILED' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2029) : see previous definition of 'STATUS_DLL_INIT_FAILED'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(7197): warning C4005: 'STATUS_FLOAT_MULTIPLE_FAULTS' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2030) : see previous definition of 'STATUS_FLOAT_MULTIPLE_FAULTS'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(7207): warning C4005: 'STATUS_FLOAT_MULTIPLE_TRAPS' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2031) : see previous definition of 'STATUS_FLOAT_MULTIPLE_TRAPS'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(7330): warning C4005: 'STATUS_REG_NAT_CONSUMPTION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2032) : see previous definition of 'STATUS_REG_NAT_CONSUMPTION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(8523): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2033) : see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(8650): warning C4005: 'STATUS_INVALID_CRUNTIME_PARAMETER' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2034) : see previous definition of 'STATUS_INVALID_CRUNTIME_PARAMETER'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(8713): warning C4005: 'STATUS_ASSERTION_FAILURE' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2035) : see previous definition of 'STATUS_ASSERTION_FAILURE'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(11904): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2037) : see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+     1>C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\ntstatus.h(11913): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION' : macro redefinition
+                 C:\Program Files\Microsoft SDKs\Windows\v7.0A\include\winnt.h(2038) : see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+     1>ScanDir.cpp(66): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>ScanDir.cpp(74): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>ScanDir.cpp(74): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ScanDir.cpp(77): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>ScanDir.cpp(77): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ScanDir.cpp(78): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>ScanDir.cpp(78): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ScanDir.cpp(79): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>ScanDir.cpp(79): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ScanDir.cpp(83): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>ScanDir.cpp(83): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ScanDir.cpp(84): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>ScanDir.cpp(84): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ScanDir.cpp(85): warning C4995: 'strcat': name was marked as #pragma deprecated
+     1>ScanDir.cpp(85): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(110) : see declaration of 'strcat'
+     1>ScanDir.cpp(89): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : see declaration of 'getenv'
+     1>ScanDir.cpp(136): warning C4018: '<' : signed/unsigned mismatch
+     1>ScanDir.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>ScanDir.cpp(103): warning C4101: 'hFile' : unreferenced local variable
+     1>ScanDir.cpp(62): warning C4101: 'length_of_arg' : unreferenced local variable
+     1>ScanDir.cpp(630): warning C4995: 'wsprintfW': name was marked as #pragma deprecated
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Release\autoscan.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\autoscan.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Release\autoscan.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Release\autoscan.lib" /MACHINE:X86 /PROFILE Release\ScanDir.obj
+         LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+         Launcher.vcxproj -> C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Release\autoscan.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Release\autoscan.exe;#1" /manifest Release\autoscan.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Launcher.unsuccessfulbuild".
+         Touching "Release\Launcher.lastbuildstate".
+     1>Done Building Project "C:\Users\Javis\Documents\Visual Studio 2010\Projects\Launcher\Launcher\Launcher.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:51.61
