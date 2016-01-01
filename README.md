@@ -2,3 +2,4 @@
 
 Ring 0(kernel mode) NT scanner with signature verification for PE files in windows.
 
+Reference : http://undocumented.ntinternals.net/
